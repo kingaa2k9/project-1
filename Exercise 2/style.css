@@ -68,7 +68,7 @@ a.nav-link:hover{
 	/*align-items: center;*/
 	justify-content: center;
 
-	margin-top: 280px;
+	margin-top: 200px;
 	margin-bottom:30px; 
 	/*padding:400px;*/
 
@@ -112,7 +112,7 @@ iframe:hover{
 }
 
 h1{
-	margin-top:100px;
+	margin-top: 100px;
 	
 	text-align: center;
 	text-transform: unset;
