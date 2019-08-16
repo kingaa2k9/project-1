@@ -19,6 +19,7 @@ body{
 	background-position:center;
 	height:700px;
 	margin: 0px;
+	max-width: 110%;
 
 }
 
@@ -29,8 +30,8 @@ body{
 
 .box{
 	border:1px solid #f2f2f2 ;
-	height:85%;
-	max-width:95%;
+	max-height:85%;
+	/*max-width:95%;*/
 	margin: 30px;
 	color: #f2f2f2;
 	transition: 1s;
@@ -63,7 +64,7 @@ a.nav-link:hover{
 	display: flex;
 	/*align-items: center;*/
 	justify-content: center;
-	padding:400px;
+	/*padding:400px;*/
 
 }
 iframe{
@@ -75,7 +76,7 @@ iframe{
 iframe:hover{
 	padding: 10px;
 	height: 400px;
-	width:400px;
+	max-width:400px;
 	transition: 0.5s;
 }
 
