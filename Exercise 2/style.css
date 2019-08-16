@@ -44,15 +44,18 @@ a.nav-link:hover{
 	border-bottom: 2px solid grey;
 	border-radius:150px;
 	color: #f2f2f2;
-	transform:rotate(360deg);
+	
+	transition: 1s;
 }
 
 .nav-link{
 	color: #f2f2f2;
+	transition: 1s;
 }
 
 .nav{
 	
+	padding: 10px;
 	display: flex;
 	justify-content: space-around;
 
@@ -64,6 +67,9 @@ a.nav-link:hover{
 	display: flex;
 	/*align-items: center;*/
 	justify-content: center;
+
+	margin-top: 280px;
+	margin-bottom:30px; 
 	/*padding:400px;*/
 
 }
@@ -90,14 +96,43 @@ iframe:hover{
 	font-size: 16px;
 	    line-height: 1;
     border-radius: 500px
+
 }
 
 .btn-outline-danger:hover{
 	transform:scale(1.1);
 	transition: 1s ease-in-out;
+
 }
 
 .box:hover{
 	transform: scale(1.01);
+
 	transition: 1s ease-in-out;
+}
+
+h1{
+	margin: 100px;
+	text-align: center;
+	text-transform: unset;
+	backface-visibility: hidden;
+
+}
+
+.box2{
+	border:1px solid red ;
+	color: black;
+	transition:2s;
+	perspective: 1000px;
+
+}
+
+.box2:hover{
+	transform: rotateY(180deg);
+	transition-delay: 10s;
+	color:white;
+	background:red; 
+	transition: 2s;
+	
+
 }
