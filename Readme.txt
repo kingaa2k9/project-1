@@ -1,0 +1,3 @@
+This Repository belongs to Kinga2k9...
+
+This contains the Basic necessary code to change the backgroud of a Webpage using HTML
